@@ -2,7 +2,7 @@
 
 import { useState, useEffect } from "react"
 import { useRouter, useParams } from "next/navigation"
-import { SupplierForm } from "../../_components/supplier-form"
+import { SupplierForm } from "@/app/(dashboard)/supplier/supplier/_components/supplier-form"
 import { Supplier } from "@/lib/interfaces"
 import { toast } from "sonner"
 import { Card, CardContent } from "@/components/ui/card"

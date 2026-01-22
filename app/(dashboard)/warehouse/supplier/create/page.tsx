@@ -2,7 +2,7 @@
 
 import { useState } from "react"
 import { useRouter } from "next/navigation"
-import { SupplierForm } from "../_components/supplier-form"
+import { SupplierForm } from "@/app/(dashboard)/supplier/supplier/_components/supplier-form"
 import { Supplier, SupplierStatus } from "@/lib/interfaces"
 import { toast } from "sonner"
 
